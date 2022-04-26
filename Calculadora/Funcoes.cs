@@ -1,8 +1,10 @@
 using System;
 
-namespace Calculadora{
-public class Funcoes{
-    public static void Menu()
+namespace Calculadora
+{
+    public class Funcoes
+    {
+        public static void Menu()
             {
              Console.Clear();
              Console.WriteLine("Digite a opção desejada: ");
@@ -19,7 +21,7 @@ public class Funcoes{
             default : Menu();break;
             }
         }
-    public static void Divisao()
+        public static void Divisao()
         { 
             Console.Clear();
             Console.WriteLine("Digite o primeiro numero : ");
