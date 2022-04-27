@@ -29,10 +29,10 @@ namespace Calculadora
 
             Console.WriteLine("Digite o segundo numero : ");
             float.TryParse(Console.ReadLine(),out float N2);
-
+        
             float resultado = N1 / N2;
             Console.WriteLine("");
-
+            
             Console.WriteLine($"O resultado da divisão é : {resultado}");
             Console.ReadKey();
             Menu();
@@ -95,6 +95,7 @@ namespace Calculadora
             float.TryParse(Console.ReadLine(),out float N2);
 
             float resultado = N1 - N2;
+             
             Console.WriteLine("");
 
             Console.WriteLine($"O resultado da subtração é : {resultado}");
